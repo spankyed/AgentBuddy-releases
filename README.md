@@ -35,23 +35,41 @@ Download the latest release from the [Releases page](https://github.com/spankyed
 
 ## FAQ
 
-**Do I need an API key?**
+<details>
+<summary>Do I need an API key?</summary>
+
 Not necessarily. AgentBuddy integrates with the Claude Code CLI, so you can use your existing Anthropic subscription. OpenAI Codex integration is coming soon. You can also connect directly with your own API key (Anthropic, OpenAI, or Google) in **Settings**.
+</details>
 
-**Is my data stored locally?**
+<details>
+<summary>Is my data stored locally?</summary>
+
 Yes. All data stays on your machine — conversations, workflows, and settings are persisted locally via an embedded database.
+</details>
 
-**Can I customize the built-in actions and prompts?**
+<details>
+<summary>Can I customize the built-in actions and prompts?</summary>
+
 Yes. The [Default Setup](https://github.com/spankyed/default-setup) repo contains the source for all built-in actions, prompts, flows, and library docs. You can fork it, modify it, compile it, and import your custom setup pack via **Settings > Import Setup Pack**.
+</details>
 
-**Why isn't the source code available?**
+<details>
+<summary>Why isn't the source code available?</summary>
+
 AgentBuddy is currently in early testing. The full source code is planned to be released on June 19th, 2026.
+</details>
 
-**What models are supported?**
+<details>
+<summary>What models are supported?</summary>
+
 Any model available through Anthropic, OpenAI, or Google APIs via the Vercel AI SDK.
+</details>
 
-**Is Windows or Linux supported?**
+<details>
+<summary>Is Windows or Linux supported?</summary>
+
 Not yet — only macOS (Apple Silicon) builds are available currently. Windows and Linux support is planned.
+</details>
 
 ## Links
 
