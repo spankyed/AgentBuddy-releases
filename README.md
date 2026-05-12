@@ -20,13 +20,12 @@ Download the latest release from the [Releases page](https://github.com/spankyed
 
 1. Download and install the `.dmg` from the [latest release](https://github.com/spankyed/AgentBuddy-releases/releases/latest)
 2. Open AgentBuddy
-3. Go to **Settings** and add your LLM API key (Anthropic, OpenAI, or Google)
-4. Start building workflows
+3. Start building workflows
 
 ## Features
 
 - **Actor-based architecture** — XState state machines drive frontend and backend through a typed event bus
-- **LLM integration** — Connect to Anthropic, OpenAI, and Google models via the Vercel AI SDK
+- **Custom LLM integrations** — Connect to Anthropic, OpenAI, and Google models via the Vercel AI SDK
 - **Visual node editor** — Design agent flows with drag-and-drop canvas
 - **Embedded terminal** — Run commands directly inside the app
 - **Thread-based conversations** — Persistent, resumable coding sessions
