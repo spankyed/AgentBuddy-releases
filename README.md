@@ -1,6 +1,8 @@
-# AgentBuddy
+<p align="center">
+  <img src="./banner.svg" alt="AgentBuddy" />
+</p>
 
-A local-first desktop app for building and running AI agent workflows using an actor-based architecture.
+<p align="center">A local-first desktop app for building and running AI agent workflows using an actor-based architecture.</p>
 
 ## Download
 
