@@ -4,8 +4,6 @@
 
 <p align="center">A local-first desktop app for building and running AI agent workflows using an actor-based architecture.</p>
 
-<br/>
-
 ---
 
 ## Download
