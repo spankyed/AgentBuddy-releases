@@ -4,6 +4,10 @@
 
 <p align="center">A local-first desktop app for building and running AI agent workflows using an actor-based architecture.</p>
 
+<br/>
+
+---
+
 ## Download
 
 Download the latest release from the [Releases page](https://github.com/spankyed/AgentBuddy-releases/releases/latest).
