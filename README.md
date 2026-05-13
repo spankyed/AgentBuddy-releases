@@ -13,18 +13,22 @@ Download the latest release from the [Releases page](https://github.com/spankyed
 | Platform | Architecture | Format |
 |----------|-------------|--------|
 | macOS | Apple Silicon (arm64) | `.dmg` |
+| Windows | x64 | `.exe` |
 
-<!-- Windows and Linux builds coming soon -->
+<!-- Linux builds coming soon -->
 
 ## System Requirements
 
 - macOS 12+ (Apple Silicon)
+- Windows 10+ (x64)
 
 ## Getting Started
 
-1. Download and install the `.dmg` from the [latest release](https://github.com/spankyed/AgentBuddy-releases/releases/latest)
-2. Open AgentBuddy
+1. Download the installer for your platform from the [latest release](https://github.com/spankyed/AgentBuddy-releases/releases/latest)
+2. Install and open AgentBuddy
 3. Start building workflows
+
+> **Windows note:** The app is not yet code-signed, so Windows SmartScreen may show a warning. Click "More info" → "Run anyway" to proceed.
 
 ## Features
 
@@ -69,9 +73,9 @@ Any model available through Anthropic, OpenAI, or Google APIs via the Vercel AI 
 </details>
 
 <details>
-<summary>Is Windows or Linux supported?</summary>
+<summary>Is Linux supported?</summary>
 
-Not yet — only macOS (Apple Silicon) builds are available currently. Windows and Linux support is planned.
+Not yet — only macOS and Windows builds are available currently. Linux support is planned.
 </details>
 
 ## Links
