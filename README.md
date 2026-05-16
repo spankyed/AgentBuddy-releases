@@ -28,6 +28,19 @@ Download the latest release from the [Releases page](https://github.com/spankyed
 2. Install and open AgentBuddy
 3. Start building workflows
 
+## Extending
+
+AgentBuddy can be customized by modifying the [Default Setup](https://github.com/spankyed/default-setup) — the source for all built-in actions, prompts, flows, library docs, and settings.
+
+1. Clone the [default-setup](https://github.com/spankyed/default-setup) repo
+2. Edit the source files (or point a coding agent at the repo and describe your changes)
+3. Compile with `npm run compile`
+4. In AgentBuddy, go to **Settings > General > Application**, scroll to the bottom, and click **Import Setup Pack** — select the compiled `dist/` folder
+
+See the default-setup repo's [docs](https://github.com/spankyed/default-setup#readme) for authoring guides on actions, prompts, and flows.
+
+Numerous more ways to extend and customize the app are still being actively planned/developed.
+
 > **Windows note:** The app is not yet code-signed, so Windows SmartScreen may show a warning. Click "More info" → "Run anyway" to proceed.
 
 ## Features
@@ -39,19 +52,20 @@ Download the latest release from the [Releases page](https://github.com/spankyed
 - **Thread-based conversations** — Persistent, resumable coding sessions
 - **Interactive tool approval** — Approve or deny edit, write, and bash actions
 - **Plugin system** — Extend the app with custom canvas views, panels, and state machines
+- **Much more**
 
 ## FAQ
 
 <details>
 <summary>Do I need an API key?</summary>
 
-Not necessarily. AgentBuddy integrates with the Claude Code CLI, so you can use your existing Anthropic subscription. OpenAI Codex integration is coming soon. You can also connect directly with your own API key (Anthropic, OpenAI, or Google) in **Settings**.
+Not necessarily. AgentBuddy integrates with the Claude Code CLI, so you can use your existing Anthropic subscription. OpenAI Codex integration is in development. You can also connect directly with your own API key (Anthropic, OpenAI, or Google) in **Settings**.
 </details>
 
 <details>
 <summary>Is my data stored locally?</summary>
 
-Yes. All data stays on your machine — conversations, workflows, and settings are persisted locally via an embedded database.
+Yes. All data stays on your machine — secrets, conversations, workflows, and settings are persisted locally via an embedded database. We do not host any servers and the app does not share data with any third-party providers. All third-party integrations must be handled by the user. 
 </details>
 
 <details>
@@ -63,7 +77,7 @@ Yes. The [Default Setup](https://github.com/spankyed/default-setup) repo contain
 <details>
 <summary>Why isn't the source code available?</summary>
 
-AgentBuddy is currently in early testing. The full source code is planned to be released on June 19th, 2026.
+AgentBuddy is currently in an early testing phase. The full source code is planned to be released on June 19th, 2026.
 </details>
 
 <details>
